@@ -1,5 +1,4 @@
-* {
-    padding: 0;
+* {padding: 0;
     margin: 0;
     box-sizing: border-box;}
 
@@ -13,22 +12,45 @@ body {min-width:320px;
     font-family:'Dosis', sans-serif;
 font-size: 1rem;
 letter-spacing: normal;
-line-height:1.6;
+line-height: 1.6;
 background-color: var(--rust);}
 
-h1 {background-color: var(--gray);
+h1 {background-color: var(--white);
 text-align: center;
+text-decoration: underline;
 margin: 2.5rem auto;
 margin-left: 25rem;
 margin-right: 25rem;
-padding: 1rem auto;}
+padding: 1rem auto;
+border: #343F3E;
+border-style: solid;}
+
+header {background-color: var(--white);
+    text-align: center;
+    text-decoration:none;
+    margin: 2.5rem auto;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    padding: 1rem auto;
+    border: #343F3E;
+    border-style: solid;}
 
 section {
-margin: 2.5rem auto;
+    text-align: center;
+    margin: 2.5rem auto;
 background-color: var(--white);
 margin-left: 10rem;
 margin-right: 50rem;
 min-height: auto;
 border: #343F3E;
 border-style:solid;
-text-indent: 1%;}
+text-indent: 0%;}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
