@@ -36,7 +36,7 @@ header {background-color: var(--white);
     border-style: solid;}
 
 section {
-    text-align: center;
+    text-align:left;
     margin: 2.5rem auto;
 background-color: var(--white);
 margin-left: 10rem;
@@ -44,7 +44,8 @@ margin-right: 50rem;
 min-height: auto;
 border: #343F3E;
 border-style:solid;
-text-indent: 0%;}
+padding: 1rem;
+text-indent: 5%;}
 
 a.button {
     -webkit-appearance: button;
