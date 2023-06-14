@@ -1,5 +1,5 @@
 window.onload = function welcome() {
-    confirm("Welcome Quizly Bear!  You are about to begin the quiz");
+    confirm("Welcome Quizly Bear!  You are about to begin the quiz, please answer yes or no");
     confirm("If you answer a questions incorrectly, you cannot advance to the next...");
     
     var retVal = prompt("Do you want to continue?");
@@ -9,41 +9,33 @@ window.onload = function welcome() {
         alert("Well you're a grumpy bear");
     }
 
-    var retVal = prompt("My given name is Samuel, only 1 person calls me it.  Can you guess who?");
-    if (retVal == "mum") {
+    var retVal = prompt("My given name is Samuel, only 1 person calls me it.  Will you?");
+    if (retVal == "no") {
         alert("Grr, you're good, next question...");
     } else {
-        alert("FALSE. Please try again. HINT: she gave me to this world...");
+        alert("FALSE. Please try again. HINT: you absolutely won't");
     }
 
-    var retVal = prompt("Can you guess how old I am?  I may have mentioned it in passing on group chat...");
-    if (retVal == "37") {
+    var retVal = prompt("Do I have any pets?");
+    if (retVal == "yes") {
         alert("Dang, pretty impressive. NEXT");
     } else {
-        alert("NOPE. HINT: Quarter of a century + 20 - 8");
+        alert("WRONG!");
     }
 
-    var retVal = prompt("What is my dogs name?");
-    if (retVal == "eli") {
+    var retVal = prompt("Have I worked in a bakery before?");
+    if (retVal == "yes") {
         alert("Very good indeed...");
     } else {
-        alert("WRONG. HINT: Same number of characters as my name, the biblical name refers to 'my god'");
+        alert("WRONG dude");
     }
 
-    var retVal = prompt("Which football team remained in the Championship for the longest period?");
-    if (retVal == "ipswich") {
+    var retVal = prompt("Do I live in Peterborough currently?");
+    if (retVal == "yes") {
         alert("More like BALLER...");
     } else {
         alert("Really? Come on. HINT: they are based in Suffolk");
-    }
-
-    var retVal = prompt("In which country would you find the Hoover Dam?");
-    if (retVal == "usa") {
-        alert("DING DING WINNER WINNER");
-    } else {
-        alert("INCORRECT. HINT: the good ol'...");
-    }
-    }
+    }}
 
     var retVal = prompt("This is your prize. Will you accept?");
     if (retVal == "yes") {
