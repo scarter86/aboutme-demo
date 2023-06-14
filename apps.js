@@ -1,7 +1,4 @@
-window.onload = function()
-{
-    var username = prompt("Hello!  What is your name? ");
-    var usernameElement = document.getElementById("name");
+console.log("name")
+    let username = prompt("Hello!  What is your name? ");
+    let usernameElement = document.getElementById("name");
     usernameElement.innerText = username
-}
-

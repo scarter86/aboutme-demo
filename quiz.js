@@ -1,6 +1,8 @@
-window.onload = function welcome() {
-    confirm("Welcome Quizly Bear!  You are about to begin the quiz, please answer yes or no");
-    confirm("If you answer a questions incorrectly, you cannot advance to the next...");
+document.addEventListener("DOMContentLoaded", function() {
+    your_function();
+  }); {
+    confirm("Welcome Quizly Bear!  You are about to begin the quiz...");
+    confirm("If you answer a questions incorrectly, you cannot advance to the next.  Please answer in 'yes' or 'no'...");
     
     var retVal = prompt("Do you want to continue?");
     if (retVal == "yes") {
@@ -35,7 +37,7 @@ window.onload = function welcome() {
         alert("More like BALLER...");
     } else {
         alert("Really? Come on. HINT: they are based in Suffolk");
-    }}
+    }
 
     var retVal = prompt("This is your prize. Will you accept?");
     if (retVal == "yes") {
@@ -43,3 +45,4 @@ window.onload = function welcome() {
     } else {
         alert("Why you no want prize?");
     }
+}
