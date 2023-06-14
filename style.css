@@ -1,5 +1,5 @@
 * {padding: 0;
-    margin: 0;
+    margin: 5px;
     box-sizing: border-box;}
 
 :root {
@@ -8,7 +8,9 @@
     --space: #343F3E;
     --white: #FFFFFF;}
 
-body {min-width:320px;
+    nav {text-align: center;}
+
+body {min-width:auto;
     font-family:'Dosis', sans-serif;
 font-size: 1rem;
 letter-spacing: normal;
@@ -76,4 +78,5 @@ h2 {text-decoration: underline;}
 .button {
     background-color: #505A5B;
     color: #FFFFFF;
-padding: 0.2rem;}
+padding: 0.1rem;
+text-decoration: none;}
