@@ -37,21 +37,22 @@ header {background-color: var(--white);
     border-style: solid;}
 
 section {
-    text-align:left;
+    text-align:center;
     margin: 2.5rem auto;
 background-color: var(--white);
-margin-left: 10rem;
-margin-right: 50rem;
+margin-left: 25rem;
+margin-right: 25rem;
 min-height: auto;
 border: #343F3E;
 border-style:solid;
-padding: 1rem;
+padding: 2.5rem;
 text-indent: 5%;}
 
 article { text-align:center;
 background-color: var(--white);
-margin-left: 10rem;
-margin-right: 70rem;
+margin: 2.5rem;
+margin-left: 25rem;
+margin-right: 25rem;
 min-height: auto;
 border: #343F3E;
 border-style:solid;
@@ -62,7 +63,8 @@ text-indent: 0%;
 
 .education {text-align:center;
     background-color: var(--white);
-    margin-left: 70rem;
+    margin: 2.5rem auto;
+    margin-left: 10rem;
     margin-right: 10rem;
     min-height: auto;
     border: #343F3E;
@@ -71,11 +73,7 @@ text-indent: 0%;
 
 h2 {text-decoration: underline;}
 
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
-}
+.button {
+    background-color: #505A5B;
+    color: #FFFFFF;
+padding: 0.2rem;}
