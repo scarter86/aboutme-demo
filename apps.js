@@ -4,9 +4,7 @@ console.log("name")
     usernameElement.innerText = username
 
     let y = Math.floor(Math.random() * 10 + 1);
- 
-    
-    let guess = 1;
+ let guess = 1;
 
     document.getElementById("submitguess").onclick = function () {
 
@@ -14,8 +12,8 @@ console.log("name")
         let x = document.getElementById("guessField").value;
 
         if (x == y) {
-            alert("YOU ARE A GENIUS OF LEVELS WE HAVEN'T SEEN BEFORE"
-                + guess + " GUESS ");
+            alert("YOU ARE A GENIUS OF LEVELS WE HAVEN'T SEEN BEFORE, YOU GUESSED IT IN..."
+                + guess + " GUESSES ");
         }
 
         
