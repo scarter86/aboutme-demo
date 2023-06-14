@@ -73,10 +73,35 @@ text-indent: 0%;
     border-style:solid;
     text-indent: 0%;}
 
-h2 {text-decoration: underline;}
+    .work {text-align:center;
+        background-color: var(--white);
+        margin: 2.5rem auto;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        min-height: auto;
+        border: #343F3E;
+        border-style:solid;
+        text-indent: 0%;}
+
+h2 {text-decoration: underline;
+text-align: center;
+border-style: dotted;}
 
 .button {
     background-color: #505A5B;
     color: #FFFFFF;
 padding: 0.1rem;
 text-decoration: none;}
+
+nav {font-size: large;
+text-decoration: solid;}
+
+.form {text-align:center;
+    background-color: var(--white);
+    margin: 2.5rem auto;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    min-height: auto;
+    border: #343F3E;
+    border-style:solid;
+    text-indent: 0%;}
