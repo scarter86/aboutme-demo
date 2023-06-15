@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (retVal == "no") {
         alert("Grr, you're good, next question...");
     } else {
-        alert("FALSE. Please try again. HINT: you absolutely won't");
+        alert("Hmm, not sure you will!");
     }
 
     var retVal = prompt("Do I have any pets?");
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (retVal == "yes") {
         alert("More like BALLER...");
     } else {
-        alert("Really? Come on. HINT: they are based in Suffolk");
+        alert("Really? Come on. HINT: ");
     }
 
     var retVal = prompt("This is your prize. Will you accept?");

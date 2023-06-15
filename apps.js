@@ -1,5 +1,6 @@
 console.log("name")
     let username = prompt("Hello!  What is your name? ");
+    console.log("name")
     let usernameElement = document.getElementById("name");
     usernameElement.innerText = username
 
@@ -23,6 +24,6 @@ console.log("name")
         }
         else {
             guess++;
-            alert("OOPS SORRY!! TRY A GREATER NUMBER")
+            alert("SORRY!! TRY A GREATER NUMBER")
         }
     }
