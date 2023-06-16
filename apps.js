@@ -27,3 +27,15 @@ console.log("name")
             alert("SORRY!! TRY A GREATER NUMBER")
         }
     }
+
+    let dog = [
+        "pug",
+        "poodle",
+        "collie",
+        "dalmation",
+    ];
+    
+    // Loop through the length of the array
+    for (let i = 0; i < dog.length; i++) {
+      console.log(i, dog[i]);
+    }

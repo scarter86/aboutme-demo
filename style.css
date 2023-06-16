@@ -42,8 +42,8 @@ section {
     text-align:center;
     margin: 2.5rem auto;
 background-color: var(--white);
-margin-left: 25rem;
-margin-right: 25rem;
+margin-left: 30rem;
+margin-right: 30rem;
 min-height: auto;
 border: #343F3E;
 border-style:solid;
@@ -53,8 +53,8 @@ text-indent: 5%;}
 article { text-align:center;
 background-color: var(--white);
 margin: 2.5rem;
-margin-left: 25rem;
-margin-right: 25rem;
+margin-left: 30rem;
+margin-right: 30rem;
 min-height: auto;
 border: #343F3E;
 border-style:solid;
@@ -66,8 +66,8 @@ text-indent: 0%;
 .education {text-align:center;
     background-color: var(--white);
     margin: 2.5rem auto;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
     min-height: auto;
     border: #343F3E;
     border-style:solid;
@@ -76,8 +76,8 @@ text-indent: 0%;
     .work {text-align:center;
         background-color: var(--white);
         margin: 2.5rem auto;
-        margin-left: 10rem;
-        margin-right: 10rem;
+        margin-left: 30rem;
+        margin-right: 30rem;
         min-height: auto;
         border: #343F3E;
         border-style:solid;
@@ -91,7 +91,9 @@ border-style: dotted;}
     background-color: #505A5B;
     color: #FFFFFF;
 padding: 0.1rem;
-text-decoration: none;}
+text-decoration: none;
+border: #343F3E;
+border-style:dashed;}
 
 nav {font-size: large;
 text-decoration: solid;}
@@ -99,8 +101,8 @@ text-decoration: solid;}
 .form {text-align:center;
     background-color: var(--white);
     margin: 2.5rem auto;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
     min-height: auto;
     border: #343F3E;
     border-style:solid;
